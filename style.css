@@ -1,0 +1,67 @@
+.main-header
+{
+    text-align: center;
+    color: blue;
+    background-color: aqua;
+    font-family:Arial, sans-serif ;
+    font-size: 18px;
+    padding: 15px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.main-header.logo
+{
+    width:55px;
+    height: 55px;
+    padding: 8px 14px;
+    margin: 10px 0;
+}
+.main-header.logo
+{
+    border-radius: 5px;
+}
+.main-header.tittle h1
+{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+h1
+{
+    color:blueviolet(104,6,26)
+}
+.bgimage
+{ 
+ background-color: url("../image/bg.png");
+ background-repeat: no-repeat;
+ background-position: center;
+ text-align: center;
+}
+.maincomponent
+{
+    display:flex;
+    border: 2px solid black;
+}
+.box
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: large;
+
+}
+#box1{
+    background-color: blue;
+}
+#box2{
+    background-color:rgb(red, green, blue);
+
+}
+#box3{
+    background-color: blueviolet;
+}
+#box4{
+    background-color: darkred;
+}
